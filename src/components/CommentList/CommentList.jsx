@@ -18,7 +18,7 @@ export default function CommentList() {
           ))}
         </ul>
       ) : (
-        <p>Aucun commentaire...</p>
+        <p className="no-comment">Aucun commentaire...</p>
       )}
     </>
   );
