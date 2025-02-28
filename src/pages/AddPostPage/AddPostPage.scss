@@ -1,0 +1,25 @@
+.post-page {
+  width: 30vw;
+  h2 {
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  input[type="text"] {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  textarea {
+    background-color: transparent;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  p {
+    text-align: center;
+  }
+}
